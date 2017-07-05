@@ -316,6 +316,8 @@ func (s *State) initDriver(driverName string) error {
 		)
 	case "mock":
 		s.Driver = &drivers.MockDriver{}
+	case "sqlite":
+		s.Driver = drivers.NewSQLiteDriver(s.Config.SQLite.File)
 	}
 
 	if s.Driver == nil {
