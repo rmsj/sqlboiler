@@ -53,7 +53,7 @@ type MSSQLConfig struct {
 	SSLMode string
 }
 
-+// SQLiteConfig configures a sqlite db
+// SQLiteConfig configures a sqlite db
 type SQLiteConfig struct {
     File string
 }
