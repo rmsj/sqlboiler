@@ -18,8 +18,8 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/satori/go.uuid"
-	"github.com/vattle/sqlboiler/strmangle"
-	"github.com/vattle/sqlboiler/types"
+	"github.com/rmsj/sqlboiler/strmangle"
+	"github.com/rmsj/sqlboiler/types"
 )
 
 var (

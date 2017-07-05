@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/vattle/sqlboiler/bdb"
+	"github.com/rmsj/sqlboiler/bdb"
 )
 
 // SQLiteDriver holds the database connection string and a handle

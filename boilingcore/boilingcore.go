@@ -13,10 +13,10 @@ import (
 	"text/template"
 
 	"github.com/pkg/errors"
-	"github.com/vattle/sqlboiler/bdb"
-	"github.com/vattle/sqlboiler/bdb/drivers"
-	"github.com/vattle/sqlboiler/queries"
-	"github.com/vattle/sqlboiler/strmangle"
+	"github.com/rmsj/sqlboiler/bdb"
+	"github.com/rmsj/sqlboiler/bdb/drivers"
+	"github.com/rmsj/sqlboiler/queries"
+	"github.com/rmsj/sqlboiler/strmangle"
 )
 
 const (
@@ -267,7 +267,7 @@ func (s *State) processReplacements() error {
 	return nil
 }
 
-var basePackage = "github.com/vattle/sqlboiler"
+var basePackage = "github.com/rmsj/sqlboiler"
 
 func getBasePath(baseDirConfig string) (string, error) {
 	if len(baseDirConfig) > 0 {
