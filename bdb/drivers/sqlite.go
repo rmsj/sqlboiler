@@ -69,7 +69,7 @@ func (m *SQLiteDriver) TableNames(schema string, whitelist, blacklist []string) 
 	var args []interface{}
 	var names []string
 
-	query := `SELECT name FROM sqlite_master WHERE type='table';`
+	query := `SELECT name FROM sqlite_master WHERE type='table'`
 
 	if len(whitelist) > 0 {
 		query += fmt.Sprintf(" and name in (%s);", strings.Repeat(",?", len(whitelist))[1:])
