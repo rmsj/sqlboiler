@@ -1,4 +1,4 @@
-+// +build !sqlite
+// +build !sqlite
 
 package drivers
 

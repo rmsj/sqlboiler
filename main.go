@@ -1,4 +1,5 @@
 // Package main defines a command line interface for the sqlboiler package
+// TODO: to build I ned -> go install -tags 'sqlite' -v -ldflags -s
 package main
 
 import (
